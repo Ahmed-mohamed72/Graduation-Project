@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class OnBoardingScreen3 extends StatelessWidget {
-  const OnBoardingScreen3({super.key});
+class OnBoardingScreen2 extends StatelessWidget {
+  const OnBoardingScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
