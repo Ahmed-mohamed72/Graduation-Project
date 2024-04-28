@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sakan/features/onboarding/onboarding_screen1.dart';
+import 'package:sakan/features/onboarding/onboarding_screen2.dart';
 
 class Sakan extends StatelessWidget {
   const Sakan({super.key});
@@ -7,7 +8,8 @@ class Sakan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: OnBoardingScreen1(),
+      debugShowCheckedModeBanner: false,
+      home: OnBoardingScreen2(),
     );
   }
 }
