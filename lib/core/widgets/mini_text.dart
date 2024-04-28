@@ -12,7 +12,10 @@ class MiniText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(color: color, fontSize: size),
+      style: TextStyle(
+        color: color,
+        fontSize: size,
+      ),
     );
   }
 }
