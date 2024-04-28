@@ -20,70 +20,73 @@ class LoginOrRegister extends StatelessWidget {
               padding: const EdgeInsets.only(left: 50),
               child: SvgPicture.asset(
                 'assets/images/login-or-register-choice.svg',
-                height: 250,
-                width: 250,
+                height: 224,
+                width: 280,
               ),
             ),
             const SizedBox(
               height: 50,
             ),
             const Text(
-              '🙌مرحباً',
+              '🙌 مرحباً',
               style: TextStyle(
-                fontSize: 35,
+                fontSize: 29,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(
-              height: 30,
+              height: 15,
             ),
             const Padding(
               padding: EdgeInsets.only(left: 20),
               child: Text('يرجى التسجيل أولاً قبل الإستمتاع بخدمات'),
             ),
-            const Text('Sakan'),
+            const Text(
+              'Sakan',
+              style: TextStyle(fontWeight: FontWeight.w400),
+            ),
             const SizedBox(
               height: 20,
             ),
             const MainButton(
                 buttonColor: Color(0xffD1FAE5),
-                borderColor: Color(0xff32B768),
+                borderColor: Color(0xffD1FAE5),
                 textColor: Color(0xff32B768),
                 text: 'إنشاء حساب'),
             const SizedBox(height: 20),
             const MainButton(
                 buttonColor: Color(0xff32B768),
-                borderColor: Color(0xffD1FAE5),
+                borderColor: Color(0xff32B768),
                 textColor: Colors.white,
                 text: 'دخول'),
-            const SizedBox(height: 20),
+            const SizedBox(height: 44),
             const Padding(
               padding: EdgeInsets.only(left: 16),
               child: Text(
                 'By logging in or registering, you have agreed to the',
-                style: TextStyle(fontSize: 12),
+                style: TextStyle(fontSize: 10),
               ),
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(
+                Text(
                   '    Terms and Conditions',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                     color: Color(0xff32B768),
                   ),
                 ),
-                const Text(
+                Text(
                   ' And ',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                   ),
                 ),
-                const Text(
+                Text(
                   'Privacy Policy',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                     color: Color(0xff32B768),
                   ),
                 ),
