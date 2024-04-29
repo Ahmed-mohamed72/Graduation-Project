@@ -11,7 +11,7 @@ class Sakan extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        'LoginScreen': (context) => const LoginScreen(),
+        'LoginScreen': (context) => const LoginPage(),
         'RegisterScreen': (context) => const RegisterScreen(),
       },
       home: const OnBoardingScreen(),
