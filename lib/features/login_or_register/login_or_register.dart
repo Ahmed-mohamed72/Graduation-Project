@@ -1,6 +1,9 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sakan/core/widgets/main_button.dart';
+import 'package:sakan/features/login_or_register/login.dart';
 
 class LoginOrRegister extends StatelessWidget {
   const LoginOrRegister({super.key});
@@ -45,17 +48,33 @@ class LoginOrRegister extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const MainButton(
+            GestureDetector(
+              child: const MainButton(
                 buttonColor: Color(0xffD1FAE5),
                 borderColor: Color(0xff32B768),
                 textColor: Color(0xff32B768),
-                text: 'إنشاء حساب'),
+                text: 'إنشاء حساب',
+              ),
+            ),
             const SizedBox(height: 20),
-            const MainButton(
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: ((context) {
+                      return LoginPage();
+                    }),
+                  ),
+                );
+              },
+              child: const MainButton(
                 buttonColor: Color(0xff32B768),
                 borderColor: Color(0xffD1FAE5),
                 textColor: Colors.white,
-                text: 'دخول'),
+                text: 'دخول',
+              ),
+            ),
             const SizedBox(height: 20),
             const Padding(
               padding: EdgeInsets.only(left: 16),
@@ -64,23 +83,23 @@ class LoginOrRegister extends StatelessWidget {
                 style: TextStyle(fontSize: 12),
               ),
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(
+                Text(
                   '    Terms and Conditions',
                   style: TextStyle(
                     fontSize: 12,
                     color: Color(0xff32B768),
                   ),
                 ),
-                const Text(
+                Text(
                   ' And ',
                   style: TextStyle(
                     fontSize: 12,
                   ),
                 ),
-                const Text(
+                Text(
                   'Privacy Policy',
                   style: TextStyle(
                     fontSize: 12,
