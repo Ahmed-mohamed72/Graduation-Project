@@ -24,7 +24,7 @@ class CustomTextField extends StatelessWidget {
             Radius.circular(16),
           ),
           borderSide: BorderSide(
-            color: Color(0xff32B768),
+            color: Color(0xffEDEDED),
           ),
         ),
         hintText: hint,

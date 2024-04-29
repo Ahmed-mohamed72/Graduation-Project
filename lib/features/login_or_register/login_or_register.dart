@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sakan/core/widgets/main_button.dart';
+import 'package:sakan/core/widgets/privacy_text.dart';
 import 'package:sakan/features/registeration/login_screen.dart';
 
 class LoginOrRegister extends StatelessWidget {
@@ -78,38 +79,7 @@ class LoginOrRegister extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            const Padding(
-              padding: EdgeInsets.only(left: 16),
-              child: Text(
-                'By logging in or registering, you have agreed to the',
-                style: TextStyle(fontSize: 10),
-              ),
-            ),
-            const Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  '    Terms and Conditions',
-                  style: TextStyle(
-                    fontSize: 10,
-                    color: Color(0xff32B768),
-                  ),
-                ),
-                Text(
-                  ' And ',
-                  style: TextStyle(
-                    fontSize: 10,
-                  ),
-                ),
-                Text(
-                  'Privacy Policy',
-                  style: TextStyle(
-                    fontSize: 10,
-                    color: Color(0xff32B768),
-                  ),
-                ),
-              ],
-            ),
+            const PrivcyText()
           ],
         ),
       ),
