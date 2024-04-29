@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sakan/core/widgets/main_button.dart';
-import 'package:sakan/features/login_or_register/login.dart';
+import 'package:sakan/features/registeration/login_screen.dart';
 
 class LoginOrRegister extends StatelessWidget {
   const LoginOrRegister({super.key});
@@ -32,12 +32,12 @@ class LoginOrRegister extends StatelessWidget {
             const Text(
               '🙌مرحباً',
               style: TextStyle(
-                fontSize: 35,
+                fontSize: 29,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(
-              height: 30,
+              height: 20,
             ),
             const Padding(
               padding: EdgeInsets.only(left: 20),
@@ -48,9 +48,12 @@ class LoginOrRegister extends StatelessWidget {
               height: 20,
             ),
             GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, "RegisterScreen");
+              },
               child: const MainButton(
                 buttonColor: Color(0xffD1FAE5),
-                borderColor: Color(0xff32B768),
+                borderColor: Color(0xffD1FAE5),
                 textColor: Color(0xff32B768),
                 text: 'إنشاء حساب',
               ),
@@ -69,7 +72,7 @@ class LoginOrRegister extends StatelessWidget {
               },
               child: const MainButton(
                 buttonColor: Color(0xff32B768),
-                borderColor: Color(0xffD1FAE5),
+                borderColor: Color(0xff32B768),
                 textColor: Colors.white,
                 text: 'دخول',
               ),
@@ -79,7 +82,7 @@ class LoginOrRegister extends StatelessWidget {
               padding: EdgeInsets.only(left: 16),
               child: Text(
                 'By logging in or registering, you have agreed to the',
-                style: TextStyle(fontSize: 12),
+                style: TextStyle(fontSize: 10),
               ),
             ),
             const Row(
@@ -88,20 +91,20 @@ class LoginOrRegister extends StatelessWidget {
                 Text(
                   '    Terms and Conditions',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                     color: Color(0xff32B768),
                   ),
                 ),
                 Text(
                   ' And ',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                   ),
                 ),
                 Text(
                   'Privacy Policy',
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: 10,
                     color: Color(0xff32B768),
                   ),
                 ),
