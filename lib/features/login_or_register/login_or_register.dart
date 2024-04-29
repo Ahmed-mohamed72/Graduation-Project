@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sakan/core/widgets/main_button.dart';
 
@@ -48,17 +50,27 @@ class LoginOrRegister extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const MainButton(
-                buttonColor: Color(0xffD1FAE5),
-                borderColor: Color(0xffD1FAE5),
-                textColor: Color(0xff32B768),
-                text: 'إنشاء حساب'),
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, 'RegisterScreen');
+              },
+              child: const MainButton(
+                  buttonColor: Color(0xffD1FAE5),
+                  borderColor: Color(0xffD1FAE5),
+                  textColor: Color(0xff32B768),
+                  text: 'إنشاء حساب'),
+            ),
             const SizedBox(height: 20),
-            const MainButton(
-                buttonColor: Color(0xff32B768),
-                borderColor: Color(0xff32B768),
-                textColor: Colors.white,
-                text: 'دخول'),
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, 'LoginScreen');
+              },
+              child: const MainButton(
+                  buttonColor: Color(0xff32B768),
+                  borderColor: Color(0xff32B768),
+                  textColor: Colors.white,
+                  text: 'دخول'),
+            ),
             const SizedBox(height: 44),
             const Padding(
               padding: EdgeInsets.only(left: 16),
