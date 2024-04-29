@@ -26,16 +26,19 @@ class LoginPage extends StatelessWidget {
                         text: '👋مرحباً بعودتك')
                   ],
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Text(
                     'نحن متحمسون لعودتك، ولا يمكننا الانتظار لنرى ما الذي قمت به منذ آخر مرة قمت فيها بتسجيل الدخول.'),
                 SizedBox(
-                  height: 25,
+                  height: 85,
                 ),
                 CustomTextField(
                   hint: 'Email',
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 25,
                 ),
                 CustomTextField(
                   hint: 'Password',
@@ -56,7 +59,7 @@ class LoginPage extends StatelessWidget {
                   height: 50,
                 ),
                 SizedBox(
-                  height: 110,
+                  height: 60,
                 ),
                 Text(
                   'By logging in or registering, you have agreed to the',

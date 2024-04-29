@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -19,22 +17,23 @@ class MainButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 58,
-        width: 311,
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: borderColor,
-            width: 2,
-          ),
-          color: buttonColor,
-          borderRadius: const BorderRadius.all(Radius.circular(16)),
+      height: 58,
+      width: 311,
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: borderColor,
+          width: 1.6,
         ),
-        child: Center(
-          child: Text(
-            text,
-            style: TextStyle(
-                color: textColor, fontWeight: FontWeight.bold, fontSize: 25),
-          ),
-        ));
+        color: buttonColor,
+        borderRadius: const BorderRadius.all(Radius.circular(16)),
+      ),
+      child: Center(
+        child: Text(
+          text,
+          style: TextStyle(
+              color: textColor, fontWeight: FontWeight.bold, fontSize: 22),
+        ),
+      ),
+    );
   }
 }

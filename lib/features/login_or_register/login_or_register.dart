@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sakan/core/widgets/main_button.dart';
 import 'package:sakan/features/login_or_register/login.dart';
@@ -63,7 +62,7 @@ class LoginOrRegister extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: ((context) {
-                      return LoginPage();
+                      return const LoginPage();
                     }),
                   ),
                 );
