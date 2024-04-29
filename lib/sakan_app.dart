@@ -6,6 +6,7 @@ import 'package:sakan/features/registeration/register_screen.dart';
 class Sakan extends StatelessWidget {
   const Sakan({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
