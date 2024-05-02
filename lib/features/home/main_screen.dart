@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sakan/core/theming/colors.dart';
 import 'package:sakan/features/navigatoin_screens/chat_screen.dart';
 import 'package:sakan/features/navigatoin_screens/home_screen.dart';
 import 'package:sakan/features/navigatoin_screens/profile_screen.dart';
@@ -27,8 +28,26 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.white,
-    );
+    return Scaffold(
+        body: pages[currentIndex],
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          unselectedFontSize: 0,
+          currentIndex: currentIndex,
+          onTap: onTap,
+          elevation: 0,
+          selectedItemColor: mainColor,
+          unselectedItemColor: const Color(0xff3F3D56).withOpacity(0.9),
+          backgroundColor: const Color(0xffEAF2FB).withOpacity(0.3),
+          showSelectedLabels: true,
+          showUnselectedLabels: false,
+          items: const [
+            BottomNavigationBarItem(label: "Home", icon: Icon(Icons.home)),
+            BottomNavigationBarItem(label: "Chat", icon: Icon(Icons.chat)),
+            BottomNavigationBarItem(label: "search", icon: Icon(Icons.search)),
+            BottomNavigationBarItem(
+                label: "favorite", icon: Icon(Icons.favorite)),
+          ],
+        ));
   }
 }
