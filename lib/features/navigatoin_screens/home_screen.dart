@@ -15,14 +15,15 @@ class HomeScreen extends StatelessWidget {
         children: [
           const CustomeAppBar(),
           Expanded(
-            child: Padding(
-              padding: const EdgeInsets.only(bottom: 20),
-              child: ListView.builder(
-                itemCount: 10,
-                itemBuilder: (BuildContext, int index) {
-                  return const SakanCard();
-                },
-              ),
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (BuildContext, int index) {
+                return GestureDetector(
+                    onTap: () {
+                      Navigator.pushNamed(context, "DetailScreen");
+                    },
+                    child: const SakanCard());
+              },
             ),
           ),
         ],

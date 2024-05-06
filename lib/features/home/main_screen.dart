@@ -44,9 +44,9 @@ class _MainScreenState extends State<MainScreen> {
           items: const [
             BottomNavigationBarItem(label: "Home", icon: Icon(Icons.home)),
             BottomNavigationBarItem(label: "Chat", icon: Icon(Icons.chat)),
-            BottomNavigationBarItem(label: "search", icon: Icon(Icons.search)),
+            BottomNavigationBarItem(label: "Search", icon: Icon(Icons.search)),
             BottomNavigationBarItem(
-                label: "favorite", icon: Icon(Icons.favorite)),
+                label: "Favorite", icon: Icon(Icons.favorite)),
           ],
         ));
   }

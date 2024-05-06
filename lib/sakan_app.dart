@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sakan/features/details/details_screen.dart';
 import 'package:sakan/features/home/main_screen.dart';
 import 'package:sakan/features/onboarding/onboarding_screen.dart';
 import 'package:sakan/features/registeration/login_screen.dart';
@@ -14,6 +15,7 @@ class Sakan extends StatelessWidget {
       routes: {
         'LoginScreen': (context) => const LoginPage(),
         'RegisterScreen': (context) => const RegisterScreen(),
+        'DetailScreen': (context) => const DetailScreen(),
       },
       home: const MainScreen(),
     );
