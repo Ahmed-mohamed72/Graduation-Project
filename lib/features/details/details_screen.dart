@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:sakan/core/theming/colors.dart';
 import 'package:sakan/core/widgets/bold_text.dart';
 import 'package:sakan/core/widgets/mini_text.dart';
