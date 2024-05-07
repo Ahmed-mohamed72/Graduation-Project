@@ -11,9 +11,12 @@ class SakanCard extends StatelessWidget {
       child: Container(
         height: 200,
         width: 330,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15),
-          image: const DecorationImage(
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.only(
+              topRight: Radius.circular(15),
+              bottomLeft: Radius.circular(15),
+              bottomRight: Radius.circular(15)),
+          image: DecorationImage(
             fit: BoxFit.fill,
             image: AssetImage("assets/images/sakan.png"),
           ),

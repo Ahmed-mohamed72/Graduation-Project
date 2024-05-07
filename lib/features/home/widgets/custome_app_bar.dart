@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sakan/core/widgets/search_text_filed.dart';
 import 'package:sakan/features/home/widgets/search_bar.dart';
 
 class CustomeAppBar extends StatelessWidget {
@@ -40,7 +41,11 @@ class CustomeAppBar extends StatelessWidget {
             ],
           ),
           SizedBox(height: 20),
-          SearchSpace(),
+          SearchTextFiled(
+            height: 40,
+            width: 274,
+            color: Colors.white,
+          ),
         ],
       ),
     );
