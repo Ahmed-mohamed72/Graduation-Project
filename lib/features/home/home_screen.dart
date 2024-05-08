@@ -1,7 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:sakan/core/widgets/bold_text.dart';
 import 'package:sakan/features/home/widgets/custome_app_bar.dart';
 import 'package:sakan/features/home/widgets/sakan_card.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sakan/core/theming/colors.dart';
-import 'package:sakan/features/navigatoin_screens/chat_screen.dart';
-import 'package:sakan/features/navigatoin_screens/home_screen.dart';
-import 'package:sakan/features/navigatoin_screens/profile_screen.dart';
-import 'package:sakan/features/navigatoin_screens/search_screen.dart';
+import 'package:sakan/features/chat/chat_screen.dart';
+import 'package:sakan/features/home/home_screen.dart';
+import 'package:sakan/features/profile/profile_screen.dart';
+import 'package:sakan/features/search/search_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
