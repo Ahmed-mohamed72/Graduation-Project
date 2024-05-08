@@ -6,19 +6,42 @@
 
 # Splash Screen ✅
 
-<img width="375" alt="Splash screen1" src="https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/48082905-0693-40bd-b21b-2025831f126c">
+![Splash screen (1)](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/8371c9a1-5cc3-4364-b245-6413d9d0b745)
 
 # Onboarding Screens ✅🚩
 
-# 1 
+# 1️⃣ 
 
 ![Onboarding1](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/b6735517-ae76-4aa2-8e4f-07d7582e5ee5)
 
-# 2
+# 2️⃣
 
-![5fdef489-831d-42d1-9279-e0305bcd818d](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/2f25b3cf-da9e-4e53-8385-b1f64215a281)
+![Onboarding2](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/1e58af5b-e78e-433b-b758-a9f71941a66a)
 
-# 3
+# 3️⃣
 
-![f12a2618-0d23-44b3-b9fc-e423ff962656](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/2ae467a1-db08-4c65-aeb6-982472aa5754)
+![Onboarding3](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/c5818ae4-d776-4d85-b46d-56135802b5b0)
+
+# Login Or Register (chose) 🤔
+
+![chose 1](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/3c25f60d-1bd3-4649-87e7-d17ae743d092)
+
+# Owner or Customer (chose) 🤔
+
+![chose 2](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/72aaf271-c642-404e-b47e-afa91d63f798)
+
+# Login Screen 👋🏼
+
+![Login](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/4d51ed43-e1f8-4bc1-87e1-05d0e28ea2a2)
+
+
+# Register 🙌
+
+![Register](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/65159644-a303-4399-98d5-272b1ff18b1b)
+
+# Fill Data 🏃‍♂️
+
+![complet data](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/4381d75e-1db5-4fbb-99d1-82bacc358a23)
+
+
 
