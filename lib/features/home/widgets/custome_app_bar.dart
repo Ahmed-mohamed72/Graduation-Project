@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sakan/core/widgets/circle_picture.dart';
 import 'package:sakan/core/widgets/search_text_filed.dart';
-import 'package:sakan/features/home/widgets/search_bar.dart';
 
 class CustomeAppBar extends StatelessWidget {
   const CustomeAppBar({super.key});
@@ -17,7 +17,7 @@ class CustomeAppBar extends StatelessWidget {
             end: Alignment.bottomRight,
             colors: <Color>[Color(0xff09D874), Color(0xff8BEDBE)]),
       ),
-      child: const Column(
+      child: Column(
         children: [
           SizedBox(
             height: 55,
@@ -30,12 +30,15 @@ class CustomeAppBar extends StatelessWidget {
                 color: Colors.white,
                 size: 29,
               ),
-              CircleAvatar(
-                backgroundColor: Colors.white,
-                radius: 15,
-                child: CircleAvatar(
-                  radius: 13,
-                  backgroundImage: AssetImage("assets/images/profile.jpg"),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pushNamed(context, "ProfileScreen");
+                },
+                child: CirclePicture(
+                  bigRadisu: 15,
+                  minRadius: 13,
+                  path: "",
+                  color: Colors.white,
                 ),
               )
             ],

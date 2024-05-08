@@ -141,42 +141,43 @@ class _DetailScreenState extends State<DetailScreen> {
               ),
             ),
             Positioned(
-                top: 650,
-                left: 20,
-                right: 20,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Container(
-                      height: 55,
-                      width: 130,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(12),
-                          color: const Color(0xffD1FAE5)),
-                      child: const Center(
-                        child: BoldText(
-                          color: mainColor,
-                          size: 20,
-                          text: "حجز الأن",
-                        ),
+              top: 650,
+              left: 20,
+              right: 20,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 55,
+                    width: 130,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: const Color(0xffD1FAE5)),
+                    child: const Center(
+                      child: BoldText(
+                        color: mainColor,
+                        size: 20,
+                        text: "حجز الأن",
                       ),
                     ),
-                    Container(
-                      height: 55,
-                      width: 130,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(12),
-                          color: mainColor),
-                      child: const Center(
-                        child: BoldText(
-                          color: Colors.white,
-                          size: 20,
-                          text: "مراسله الأن",
-                        ),
+                  ),
+                  Container(
+                    height: 55,
+                    width: 130,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: mainColor),
+                    child: const Center(
+                      child: BoldText(
+                        color: Colors.white,
+                        size: 20,
+                        text: "مراسله الأن",
                       ),
-                    )
-                  ],
-                ))
+                    ),
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),
