@@ -12,7 +12,7 @@
 
 # 1️⃣ 
 
-![Onboarding1](https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/b6735517-ae76-4aa2-8e4f-07d7582e5ee5)
+<img width="375" alt="Onboarding1 (1)" src="https://github.com/Ahmed-mohamed72/Graduation-Project/assets/151045541/c8f455f3-1f41-4196-98ca-52b382eed63b">
 
 # 2️⃣
 
