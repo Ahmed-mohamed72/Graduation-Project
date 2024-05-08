@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:sakan/core/widgets/bold_text.dart';
 import 'package:sakan/core/widgets/search_text_filed.dart';
 import 'package:sakan/features/home/widgets/sakan_card.dart';
-import 'package:sakan/features/home/widgets/search_bar.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
