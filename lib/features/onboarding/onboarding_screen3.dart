@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sakan/core/widgets/bold_text.dart';
-import 'package:sakan/core/widgets/main_button.dart';
 import 'package:sakan/core/widgets/mini_text.dart';
 
 class OnBoardingScreen3 extends StatelessWidget {

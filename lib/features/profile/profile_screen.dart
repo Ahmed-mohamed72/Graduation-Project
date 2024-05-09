@@ -28,8 +28,8 @@ class ProfileScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 16),
-          Center(
+          const SizedBox(height: 16),
+          const Center(
             child: CirclePicture(
               bigRadisu: 70,
               minRadius: 68,
@@ -37,10 +37,10 @@ class ProfileScreen extends StatelessWidget {
               color: Color(0xff3F3D56),
             ),
           ),
-          SizedBox(height: 16),
+          const SizedBox(height: 16),
           Container(
-            padding: EdgeInsets.only(left: 25, right: 15),
-            child: Column(
+            padding: const EdgeInsets.only(left: 25, right: 15),
+            child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 BoldText(color: Color(0xff3F3D56), size: 18, text: "Full Name"),
