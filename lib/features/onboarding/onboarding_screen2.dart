@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sakan/core/widgets/bold_text.dart';
-import 'package:sakan/core/widgets/main_button.dart';
 import 'package:sakan/core/widgets/mini_text.dart';
 
 class OnBoardingScreen2 extends StatelessWidget {
@@ -56,11 +55,6 @@ class OnBoardingScreen2 extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              const MainButton(
-                  buttonColor: Color(0xffD1FAE5),
-                  borderColor: Color(0xff32B768),
-                  textColor: Color(0xff32B768),
-                  text: 'التالي')
             ],
           ),
         ),
